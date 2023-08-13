@@ -1,7 +1,7 @@
 "GameInfo"
 {
-	game 		"PortalCollab Base"
-                 title 		"PortalCollab Base"
+	game 		"PortalCollab"
+                 title 		"PortalCollab"
 	type		singleplayer_only
 	nodifficulty	1
 	hasportals	1
