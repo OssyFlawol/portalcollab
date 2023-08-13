@@ -1,0 +1,45 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Concrete/concrete_modular_floor001d"
+	"$surfaceprop" "concrete"
+	"%keywords" "portal"
+
+	"$envmap"  "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$envmaptint" "[ .05 .05 .05 ]"
+
+	"LightmappedGeneric_HDR_DX9"
+	{
+		"$bumpmap" "concrete/concrete_modular_floor001_height-ssbump"
+		"$ssbump" "1"
+
+        	"$detail" "detail\detail_concrete_02"
+		"$detailscale" "1.5"
+		"$detailblendfactor" .6
+		"$detailblendmode" 0
+	}
+
+	"LightmappedGeneric_DX9"
+	{
+		"$bumpmap" "concrete/concrete_modular_floor001_height-ssbump"
+		"$ssbump" "1"
+
+        	"$detail" "detail\detail_concrete_02"
+		"$detailscale" "1.5"
+		"$detailblendfactor" .6
+		"$detailblendmode" 0
+	}
+
+	"LightmappedGeneric_DX8"
+	{
+		"$bumpmap" "Concrete/concrete_modular_floor002_normal"
+		"$nodiffusebumplighting" 1
+		"$normalmapalphaenvmapmask" 1
+	}
+
+	"LightmappedGeneric_NoBump_DX8"
+	{
+		"$basetexture" "Concrete/concrete_modular_floor001d"
+		"$basealphaenvmapmask" 1
+	}
+}

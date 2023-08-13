@@ -1,0 +1,15 @@
+BoxFigs' Custom Portal Tool Textures Guide
+-------------------------------------------------
+
+
+tools/toolsnoportal
+	Use for func_noportal_volume instead of tools/toolsinvisible.
+
+tools/toolsportalbumper
+	Use for func_portal_bumper instead of tools/toolsinvisible.
+
+tools/toolsportaldetector
+	Use for func_portal_detector instead of tools/toolsinvisible.
+
+tools/toolsportalorientation
+	Use for func_portal_orientation instead of tools/toolstrigger.

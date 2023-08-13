@@ -1,0 +1,38 @@
+BoxFigs' Custom Tool Textures Guide
+-------------------------------------------------
+
+
+tools/toolsblockbullets2
+	A variant of tools/toolsblockbullets that doesn't cut vis.
+	NOTE: Team Fortess 2 already has this texture.
+
+tools/toolseffect
+	Use for
+		env_bubbles
+		env_embers
+		func_dustcloud
+		func_dustmotes
+		func_precipitation
+		func_smokevolume
+	instead of tools/toolstrigger.
+
+tools/toolsinvisible2
+	A variant of tools/toolsinvisible that doesn't cut vis.
+
+tools/toolsinvisiblebutton
+	The only tool texture that actually has its own functionality: it makes brushes it's applied to non-solid. This is useful for making func_button and func_rot_button non-solid, as they lack the ability to be non-solid by other means. 
+
+tools/toolsinvisibleladder2
+	A variant of tools/toolsinvisibleladder that doesn't cut vis.
+
+tools/toolsnodrawtransparent
+	A variant of tools/toolsnodraw that is transparent. Because of this, it no longer seals maps. Useful for invisible, solid brush entities, where you would otherwise use the standard toolsnodraw.
+
+tools/toolsphysicsclip
+	Use for func_vphysics_clip instead of tools/toolstrigger.
+
+tools/toolsvehicleclip
+	Use for func_vehicleclip instead of tools/toolstrigger.
+
+tools/toolsviscluster
+	Use for func_viscluster instead of tools/toolstrigger.

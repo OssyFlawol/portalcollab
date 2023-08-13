@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "signage/XBLA_signage_box_death"
+	"$decal" 1
+	"$surfaceprop" "glass"
+	"$selfillum" 1
+	"%keywords" "portal"
+}
