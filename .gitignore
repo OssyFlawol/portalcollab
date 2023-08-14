@@ -1,0 +1,20 @@
+# If you plan on doing remote debugging send the user the pdb instead.
+*.pdb 
+
+# Junk files
+save/
+*.cache
+demoheader.tmp
+gamestate.txt
+voice_ban.dt
+maplist.txt
+stats.txt
+
+# The user should not have someone else's config!
+cfg/config.cfg
+cfg/server_blacklist.txt
+
+# Hammer and compiler files
+*.vmx
+*.prt
+*.log
