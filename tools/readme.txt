@@ -1,0 +1,1 @@
+vbsp_2013 - modified VBSP that does not include dummy cubemaps, it allows the shiny pistons for example.
