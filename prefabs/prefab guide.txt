@@ -1,0 +1,191 @@
+Portal Prefabs
+Made by: BoxFigs
+Preview collection for PortalCollab
+-------------------------------------
+INSTALLATION:
+To use these prefabs, copy the Prefabs Portal Testchamber folder to steamapps/common/Portal/bin/Prefabs.
+You will then be able to place them using the entity and brush tools in Hammer.
+-------------------------------------
+
+Test Chamber Prefabs
+	box_dropper
+		A cube droppper. Do not place more than one of these in a map. If you need additional droppers, use the "box_dropper_multiple" prefab. Requires the "filter_boxes" prefab to work properly.
+		The dropper must have at least 32 units between it an any walls. If not, the dropper cover model will clip through when it opens.
+	box_dropper_multiple
+		A variant of the "box_dropper" prefab that lacks the box template. Multiple of this prefab can be placed in the same map. Make sure to edit the outputs of your trigger_portal_cleanser in each area to trigger the correct dropper. Requires the "filter_boxes" prefab and either the "box_dropper" or "box_template" prefabs to work properly.
+		As this prefab does not have the box template, it is recommended to use the "box_dropper" prefab for the first dropper in the map, then this prefab for any additional droppers.
+		IMPORTANT NOTE: In order for this prefab to drop another box when one falls out of the world, you will have to edit the AddOutput output on the trigger_multiple. Add this dropper's index after "logic_drop_box" in the parameter, to match the name of this prefab's "logic_drop_box#".
+	box_template
+		The cube template portion of the "box_dropper" prefab. Do not place more than one of these in a map, or in a map that contains a "box_dropper" prefab. Mostly useful for separating the template from the dropper when the surrounding map geometry requires it. For maps that lack droppers entirely, you can simply remove the nodraw box and point_template from this prefab and use the cube prop directly.
+	chamber_sign
+		Chamber number sign for test chamber entrances. Replace the model with the desired chamber sign model. To activate the sign, send the Trigger input to "relay_sign#".
+	cleanser_[length]_[height]
+		Various sizes of fizzlers. As indicated, the first number is the length of the fizzler, and the second is the height.
+	cleanser_trigger_radio
+		A trigger that can be added to any of the fizzler prefabs (reseize the trigger as needed). Fades out the radio music when a radio touches it. Use for fizzlers in areas of maps that have the "radio" prefab in them.
+	color_correction
+		Color correction for test chambers.
+	door
+		The standard large square door, commonly known as a "lab door" or "vertical door". Has an open sound to replace the default move sound. If you wish to change this, replace the open sound with DoorSound.Null instead of deleting it so that the default move sound is not heard. The "Delay Before Reset" keyvalue can be used to define the duration that the door will be open instead of sending a Close input to it.
+	doorframe_[width]
+		A white plastic doorframe. Typically used with 32-unit thick walls.
+	elev_trigger_waitfordialog
+		A set of two triggers and two logic_relay to add to the "elevator_exit" or "elevator_exit_end" prefabs to make the elevator not move until the dialog is completed. Fixes an issue in Portal where if the player enters the elevator after the dialog completes, the elevator will start moving instantly when the doors close. This prefab allows for both behaviors to work correctly.
+		To use this prefab, trigger the entity "relay_scene_completed" OnCompletion of your logic_choreographed_scene and set "trigger_exit_elevator_move" of the elevator prefab to Start Disabled.
+	elev_trigger_waitfordialog_middle
+		A version of the "elev_trigger_waitfordialog" prefab that is modified to be used with the "elevator_middle" prefab. See above.
+		To use this prefab, trigger the entity "relay_scene_completed" OnCompletion of your logic_choreographed_scene and set "trigger_elevator_move" of the elevator prefab to Start Disabled.
+	elevator_entrance
+		An elevator used for the entrance of the first chamber of the map. This elevator starts at the top of the elevator shaft and has most of its functionality stripped out. Some unseen props and brushes at the bottom of the elevator shaft have been removed as well. Includes a trigger to close the elevator doors when the player steps away.
+		If the map is part of a sequence of maps, put the name of the previous map in the "New Map Name" keyvalue of the trigger_changelevel and rename the info_landmark in this map to match the previous map. If this map does not have a map that becomes before it, you may delete these entities.
+	elevator_exit
+		An elevator used for the exit of the last chamber of a map. Moves upward when the player enters it. Includes a trigger to open the elevator doors when the player approaches it.
+		If this map is part of a sequence of maps, put the name of the next map in the "New Map Name" keyvalue of the trigger_changelevel. Also you must rename the info_landmark and trigger_transition in this map to match the next map. If the map does not have a map that comes after it, use the "elevator_exit_end" prefab instead. See its entry below for additional details.
+		Renaming the info_landmark, and trigger_transition is important if you have more than one level transition in the same map, which is definitely the case if you have both an entrance and exit elevator. Therefore, most of your test chamber maps will have two level transitions.
+		The info_landmark and trigger_transition should have the same name.
+	elevator_exit_end
+		A version of the "elevator_exit" prefab that does not include a level transition. Instead, when the elevator reaches the top, a fade to black occurs and the player is returned to the main menu.
+		The default background map (background1) will be loaded by default. If your mod uses a differently named background map, change the parameter of the output on the "logic_elevator_stop" entity to match.
+	elevator_middle
+		An elevator used to connect two chambers that are part of the same map. Includes a trigger to open the elevator doors when the player approaches it on the bottom and a trigger to close the elevator doors when the player steps away on the top.
+		Do not use more than one of these in the same map. That would mean you have three chambers in one map. Please do not do that. Multiple instances of this prefab do not work, because there should be only one middle elevator per map. If you insist on putting more than one in a map, you will have to use paste special or something.
+	energyball_launcher
+		A High Energy Pellet launcher.
+		When rotating this prefab, remember to change the direction that the energy balls are launched in. The black circle with the line it allows you to set the angle. It corresponds to the direction in the top-down viewport (top right).
+	energyball_launcher_metalwall
+		A variant of the "energyball_launcher" prefab intended to be placed on metal walls.
+	energyball_catcher
+		A High Energy Pellet catcher.
+		Requires the "filter_energyballs" prefab to work properly.
+		Place an overlay with the "decals/orange_spot" texture on the wall across from the catcher, resized to 128x128. Name it "ind_catcher#", where # is the index of this catcher (the number at the end of the entity names).
+		For single-catcher puzzles, add an output to the trigger that belongs to this prefab that disables "energy_ball_launcher#", where # matches the index of the launcher.
+		The "texturetoggle_ind_catcher#" entity is used to activate indicators, as well as the glowspot. Add the prefab's index to the "Target Brush(es)" keyvalue (e.g. "ind_catcher2"), then use that name for your indicator and glowspot overlays.
+	energyball_catcher_box
+		A box that fits around an energyball catcher, blocking the catcher until the door is opened.
+	energyball_catcher_metalwall
+		A variant of the "energyball_catcher" prefab intended for metal walls.
+	exit_doors
+		The standard chamber exit doors.
+		When rotating this prefab, remember to change the Move Direction keyvalue of each door. The black circle with the line it allows you to set the angle. It corresponds to the direction in the top-down viewport (top right).
+	filter_boxes
+		A filter for triggers that allows only physics entities named "box" to pass. Required for the "box_dropper", "box_dropper_multiple", "floor_button", and "toxic_goo_removeboxes" prefabs.
+	filter_energyballs
+		A filter for triggers that allows only energy balls (prop_energy_ball) to pass. Required for the "energyball_catcher" and "energyball_catcher_metalwall" prefabs.
+	floor_button
+		A floor button that can be activated by cubes and the player. Requires the "filter_boxes" prefab to work properly.
+		The OnOpen output of floor_button_door# corresponds to when the button is pressed, and the OnClose output corresponds to when it is unpressed.
+		The "texturetoggle_ind_floor_button#" entity is used to activate and deactivate indicators. Add the prefab's index to the "Target Brush(es)" keyvalue (e.g. "ind_floor_button2"), then use that name for your indicator overlays and signage func_brush.
+	fixed_portal_blue
+		A blue portal emitter/autoportal. Send the Trigger input to "relay_blue_portal_open#" to open the portal and send the SetActivatedState input with a parameter of 0 to "portal_blue#" to close it.
+		This portal will link with portals placed by the portal gun by default. This can be changed by setting the "Portal pair ID that it belongs to" keyvalue of the portal to a value other than 0.
+	fixed_portal_blue_floor
+		A variant of the "fixed_portal_blue" prefab that has the portal on the floor, with a brush under it.
+	fixed_portal_blue_walkable
+		A variant of the "fixed_portal_blue" prefab that has the portal aligned to the lower edge, allowing the player to easily walk through it.
+	fixed_portal_orange
+		An orange portal emitter/autoportal. Send the Trigger input to "relay_orange_portal_open#" to open the portal and send the SetActivatedState input with a parameter of 0 to "portal_orange#" to close it.
+		This portal will link with portals placed by the portal gun by default. This can be changed by setting the "Portal pair ID that it belongs to" keyvalue of the portal to a value other than 0.
+	fixed_portal_orange_floor
+		A variant of the "fixed_portal_orange" prefab that has the portal on the floor, with a brush under it.
+	fixed_portal_orange_walkable
+		A variant of the "fixed_portal_orange" prefab that has the portal aligned to the lower edge, allowing the player to easily walk through it.
+	grate_[length]_[height]
+		Various sizes of grates.
+	grate_floor_[length]_[width]
+		Various sizes of floor grates.
+	glass_floor_[length]_[width]
+		Various sizes of glass floors.
+	glass_panel_[length]_[height]
+		Various sizes of glass panels.
+	glass_window_[length]_[height]
+		Various sizes of windows.
+	ledge_[length]_[width]
+		Various sizes of ledges.
+	lift_128
+		A lift that raises up 128 units. Starts disabled, in the up position. To enable it, send the Open input to "lift#".
+	lift_256
+		A lift that raises up 256 units. Starts disabled, in the up position. To enable it, send the Open input to "lift#".
+	light_lightbox
+		A warm light, to add to lightboxes to make them emit more light.
+	light_lightbox_spot
+		A warm light_spot, to add to lightboxes to make them emit more light.
+	light_observation
+		A cool light, the same color light used in observation rooms.
+	light_observation_spot
+		A cool light_spot, the same color light used in observation rooms.
+	lightbox_(32/64)
+		A light box for use in metal walls.
+	lightbox_64_ceiling
+		A variant of lightbox_64 intended for ceilings.
+	newgame_portalgun
+		Gives the player the fully upgraded portal gun when a new game is started from this map. Includes an info_player_start.
+	newgame_portalgun_blue
+		Gives the player the basic portal gun (blue portals only) when a new game is started from this map. Includes an info_player_start.
+	obs_room_furn_[window width]_(a/b)
+		Observation room furniture. Two variants for each observation room size are included.
+	observation_room_[window width]
+		Standard observation rooms. Includes lighting entities. Adjust the angles of the light_spot as needed. Does not include furniture. Use the "obs_room_furn" set of prefabs to add furniture, or add your own.
+	panel_floor_[length]_[width]_[height]
+		Various sizes of floor panels on pistons.
+	panel_floor_pit_details_[length]_[width]
+		Details for under floor panels.
+	panel_wall_[height]_[width]_[length]
+		Various sizes of wall panels on pistons.
+	panel_wall_details_[height]_[width]
+		Details for behind wall panels.
+	portalgun_pedestal_blue
+		A portal gun on a rotating pedestal that fires blue portals automatically.
+		To activate the pedestal, send the Trigger input to "relay_fire_pedestal_portalgun".
+	portalgun_pedestal_orange
+		A portal gun on a rotating pedestal that fires orange portals automatically.
+		To activate the pedestal, send the Trigger input to "relay_fire_pedestal_portalgun".
+	radio
+		A radio playing an instrumental mix of "Still Alive". If there are fizzlers in the area (as in the radio can be dissolved in them), add the "cleanser_trigger_radio" prefab to each of the fizzlers.
+	relaxation_vault
+		An unfurnished Relaxation Vault, including the pit below.
+		Add the "wakeup_bed_sequence", "toilet_flushable"/"toilet_flushable_nospeech", and "radio" prefabs for furnishing. Add the "fixed_portal_blue_walkable" or "fixed_portal_orange_walkable" prefabs for a portal to exit the vault.
+	security_camera
+		A security camera. Meant to be placed on concrete (white) walls. The camera pops off when a portal is placed on the wall behind it.
+	security_camera_metalwall
+		A security camera. Meant to be placed on metal walls, as it lacks the func_portal_detector used by the standard "security_camera" prefab. Which makes it just a npc_security_camera inside a skip brush for easier positioning.
+	signage_exit_down
+		Exit signage with an arrow pointing down. For use above exit doors.
+	signage_ind_doors_left
+		Door state indicator signage. Meant to be placed on the left side of a set of exit doors.
+	signage_ind_doors_right
+		Door state indicator signage. Meant to be placed on the right side of a set of exit doors.
+	stairs_[height]_[width]
+		Various sizes of concrete stairs.
+	stairs_metal_[height]_[width]
+		Various sizes of metal stairs.
+	switch
+		A button usable by the player that can be pressed repeatedly. Use the OnFullyOpen output to trigger entities when the button is pressed and the OnClose output to trigger entities when the button becomes unpressed. The "Delay Before Reset" keyvalue defines the delay before the button is usable again.
+		The "texturetoggle_ind_switch#" entity is used to activate and deactivate indicators. Add the prefab's index to the "Target Brush(es)" keyvalue (e.g. "ind_switch2"), then use that name for your indicator overlays and signage func_brush.
+	switch_once
+		A button usable by the player that can be pressed only once. Use the OnFullyOpen output to trigger entities when the button is pressed.
+		The "texturetoggle_ind_switch#" entity is used to activate and deactivate indicators. Add the prefab's index to the "Target Brush(es)" keyvalue (e.g. "ind_switch2"), then use that name for your indicator overlays and signage func_brush.
+	switch_ticking
+		A button usable by the player that can be pressed repeatedly. Pressing it causes a ticking noise to play every second until the button becomes unpressed. Use the OnFullyOpen output to trigger entities when the button is pressed and the OnClose output to trigger entities when the button becomes unpressed. The "Delay Before Reset" keyvalue defines the delay before the button is usable again.
+		The "texturetoggle_ind_switch#" entity is used to activate and deactivate indicators. Add the prefab's index to the "Target Brush(es)" keyvalue (e.g. "ind_switch2"), then use that name for your indicator overlays and signage func_brush.
+	toilet_flushable
+		A Relaxation Vault toilet that can be flushed.
+	toilet_flushable_nospeech
+		A variant of the "toilet_flushable" prefab that lacks the "Your business is appreciated" line.
+	tonemap_controller
+		Automatically adjusts HDR tonemapping when the map starts.	
+	toxic_goo
+		Hazardous liquid that hurts players who touch it. The brush tool can be used with this prefab to quickly fill a desired volume with goo. The mist effects are separate, in the "toxic_goo_particles" prefab. Requires an env_cubemap placed 64 units above the goo surface for textures visible below the surface to render properly.
+	toxic_goo_particles
+		Mist particle effects for use with the "toxic_goo" prefab. Place them on top of the goo surface. Change the particle name as needed to fit the dimensions of the goo pit.
+		Particles:
+			water_mist_256: 256x256 (default)
+			water_mist_384_128: 384x128
+			water_mist_512: 512x512
+			water_mist_512_128: 512x128
+			water_mist_1024_512: 1024x512
+	toxic_goo_trigger_removeboxes
+		A trigger_multiple that removes cubes that touch it. For use with the "toxic_goo" prefab, to be placed inside the goo volume to destroy cubes that fall into it. The brush tool can be used with this prefab to quickly match this trigger with the goo volume. Leave 64 units of space below the goo surface so cubes do not visibly disappear. Requires the "filter_boxes" prefab to work properly.
+	wakeup_bed_sequence
+		Plays an animation of the player getting out of the Relaxation Vault bed when the map starts. Includes the bed prop and an info_player_start.
+	wall_portalhole
+		A wall with a square hole in it. Used for allowing only portals to pass into an area. Often used with pedestal portal guns.
