@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/kel/kel_head"
+	$surfaceprop Flesh
+	$halflambert 1
+}

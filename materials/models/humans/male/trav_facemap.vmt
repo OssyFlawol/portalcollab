@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/humans/male/trav_facemap"
+	$surfaceprop Flesh
+	$halflambert 1
+}
