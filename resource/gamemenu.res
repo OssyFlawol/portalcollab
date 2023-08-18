@@ -58,7 +58,7 @@
 	"9"
 	{
 		"label" "#GameUI_GameMenu_Options"
-		"command" "OpenOptionsDialog"
+		"command" "engine OpenOptionsDialog2"
 		"InGameOrder" "90"
 	}
 	"10"
