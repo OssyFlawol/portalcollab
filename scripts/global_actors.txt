@@ -8,10 +8,6 @@ globalactors
 	"kleiner"	"male"
 	"monk"		"male"
 	"mossman"	"female"
-	"male_portal_player"	"male"
-	"chell"		"female"
-	"abby"		"female"
-	"mel"		"female"
 
 	"male_01"	"male"
 	"male_02"	"male"
@@ -34,5 +30,16 @@ globalactors
 	"female_08"	"female"
 	"female_09"	"female"
 	"female_10"	"female"
+	
+	//PortalCollab
+	
+	"male_portal_player"	"male"
+	"retail_quinton" 		"male"
+	"male_trav"				"male"
+	"male_warren"			"male"
+	"male_kel"				"male"
+	
+	"chell"					"female"
+	"mel"					"female"
 
 }
