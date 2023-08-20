@@ -2,6 +2,9 @@ BoxFigs' Custom Portal Tool Textures Guide
 -------------------------------------------------
 
 
+tools/toolsnodrawnoportal
+	A variant of tools/toolsnodraw that doesn't allow portals to be placed on it.
+
 tools/toolsnoportal
 	Use for func_noportal_volume instead of tools/toolsinvisible.
 
