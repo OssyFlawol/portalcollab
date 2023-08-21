@@ -23,6 +23,8 @@
 			game+mod			|gameinfo_path|.
 			platform			|gameinfo_path|.
 
+			game+mod			|gameinfo_path|mapbase/mapbase_shared/shared_content_v7_0.vpk
+
 			// We search VPK files before ordinary folders, because most files will be found in
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
