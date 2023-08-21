@@ -1,0 +1,26 @@
+Criterion "ConceptMelIdle" "Concept" "CONCEPT_MEL_IDLE" "required"
+Criterion "ConceptMelEscapeIdle" "Concept" "CONCEPT_MEL_ESCAPE_IDLE" "required"
+
+Response MelIdle
+{
+	sequential
+	scene "scenes/player/mel/idle.vcd" 
+}
+
+Response MelEscapeIdle
+{
+	sequential
+	scene "scenes/player/mel/escape_idle.vcd"
+}
+
+Rule MelIdle
+{
+	criteria ConceptMelIdle
+	Response MelIdle
+}
+
+Rule MelEscapeIdle
+{
+	criteria ConceptMelEscapeIdle
+	Response MelEscapeIdle
+}

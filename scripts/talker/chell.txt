@@ -1,0 +1,13 @@
+Criterion "ConceptChellIdle" "Concept" "CONCEPT_CHELL_IDLE" "required"
+
+Response ChellIdle
+{
+	sequential
+	scene "scenes/player/chell/idle.vcd" 
+}
+
+Rule ChellIdle
+{
+	criteria ConceptChellIdle
+	Response ChellIdle
+}

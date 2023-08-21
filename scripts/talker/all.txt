@@ -1,0 +1,13 @@
+Criterion "IsDead" "Concept" "CONCEPT_PLAYER_DEAD" "required"
+
+Response PlayerDead
+{
+	sequential
+	scene "scenes/player/chell/death.vcd" 
+}
+
+Rule PlayerDead
+{
+	criteria IsDead
+	Response PlayerDead
+}

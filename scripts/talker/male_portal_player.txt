@@ -1,0 +1,13 @@
+Criterion "ConceptMalePortalPlayerIdle" "Concept" "CONCEPT_MALE_PORTAL_PLAYER_IDLE" "required"
+
+Response MalePortalPlayerIdle
+{
+	sequential
+	scene "scenes/player/male_portal_player/idle.vcd" 
+}
+
+Rule MalePortalPlayerIdle
+{
+	criteria ConceptMalePortalPlayerIdle
+	Response MalePortalPlayerIdle
+}
