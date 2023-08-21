@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models/humans/male/andrew_cylmap.vtf"
+	$surfaceprop Flesh
+	$halflambert 1
+}
