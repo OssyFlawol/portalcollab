@@ -13,6 +13,8 @@
 	manual		" - "
 	icon		"resource/icon"
 
+	GameData	"portal.fgd"
+
 	FileSystem
 	{
 		SteamAppId				400
