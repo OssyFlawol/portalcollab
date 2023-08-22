@@ -1,6 +1,6 @@
 //NOTE: This mod assumes that you have both Portal *AND* Source SDK Base 2013 Singleplayer installed on the same drive.
 //If you don't, you will have to manually specify your portal location in the search paths below.
-//Replace the ".." in all instances of "../Portal/" below with the install folder of Portal (Usually Steam/steamapps/common or Steamlibrary/steamapps/common)
+//Replace the ".." in all instances of "../Portal/" below with the install folder of Portal (Usually ...Steam/steamapps/common or ...SteamLibrary/steamapps/common)
 //If you do not know where Portal is installed, right click Portal in Steam, select properties, go to "installed files," and press Browse.
 
 "GameInfo"
