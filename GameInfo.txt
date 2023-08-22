@@ -1,7 +1,12 @@
+//NOTE: This mod assumes that you have both Portal *AND* Source SDK Base 2013 Singleplayer installed on the same drive.
+//If you don't, you will have to manually specify your portal location in the search paths below.
+//Replace the ".." in all instances of "../Portal/" below with the install folder of Portal (Usually Steam/steamapps/common or Steamlibrary/steamapps/common)
+//If you do not know where Portal is installed, right click Portal in Steam, select properties, go to "installed files," and press Browse.
+
 "GameInfo"
 {
 	game 		"PortalCollab"
-                 title 		"PortalCollab"
+    title 		"PortalCollab"
 	type		singleplayer_only
 	nodifficulty	1
 	hasportals	1
@@ -17,7 +22,7 @@
 
 	FileSystem
 	{
-		SteamAppId				400
+		SteamAppId				243730
 		ToolsAppId				211
 
 		SearchPaths
@@ -31,9 +36,9 @@
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
-			game_lv				portal/portal_lv.vpk
-			game+mod			portal/portal_sound_vo_english.vpk
-			game+mod			portal/portal_pak.vpk
+			game_lv				../Portal/portal/portal_lv.vpk
+			game+mod			../Portal/portal/portal_sound_vo_english.vpk
+			game+mod			../Portal/portal/portal_pak.vpk
 			game				|all_source_engine_paths|hl2/hl2_textures.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
@@ -47,13 +52,13 @@
 
 			// Add the Portal directory as a game search path.  This is also where where writes
 			// to the "game" path go.
-			game+game_write		portal
+			game+game_write		../Portal/portal
 
 			// Where the game's binaries are
 			gamebin				|gameinfo_path|bin
 
 			// Last, mount in shared HL2 loose files
-                        game                            |all_source_engine_paths|hammer
+            game                |all_source_engine_paths|hammer
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
 		}
