@@ -36,6 +36,10 @@
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
+			
+			//Change the "../Portal/portal" lines if Portal isn't on the same drive as Source SDK Base 2013 Singleplayer.
+			//Example: "D:/SteamLibrary/steamapps/common/Portal/portal/portal_lv.vpk"
+			
 			game_lv				../Portal/portal/portal_lv.vpk
 			game+mod			../Portal/portal/portal_sound_vo_english.vpk
 			game+mod			../Portal/portal/portal_pak.vpk
