@@ -17,6 +17,17 @@
 [
 	BallLifetime(float) 	: "Ball Lifetime" : 12 : "The time in seconds the ball will live before self-destructing. A negative value will give infinite life."
 	MinLifeAfterPortal(float) : "Min life after portal transition" : 6 : "When energy balls created by this launcher pass through a portal and their life is refreshed to be this number at minimum."
+	
+	LoopSound(sound) : "Ambient Sound" : "EnergyBall.AmbientLoop" : "The sound to play continuously for the spawned energy balls."
+	NormalTexture(sprite) : "Finite Texture" : "effects/eball_finite_life" : "The texture to use for energy balls with a finite life time."
+	InfiniteTexture(sprite) : "Infinite Texture" : "effects/eball_infinite_life" : "The texture to use for energy balls with an infinite life time."
+	
+	CollideWithPlayer(choices) : "Collide With Player" : 1 : "Sets if the energy ball should collide with the player." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
 	// Inputs
 	input LaunchBall(void) 	: "Launch a ball from the spawner."
 
