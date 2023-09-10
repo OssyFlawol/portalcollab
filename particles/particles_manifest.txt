@@ -39,7 +39,9 @@ particles_manifest
 	"file"		"particles/neurotoxins.pcf"
 	"file"		"particles/finale_fx.pcf"
 	"file"		"particles/water_impact.pcf"
-	"file"		"particles/fire_01.pcf"
 	"file"		"particles/burning_fx.pcf"
-	"file"		"particles/impact_fx.pcf"		
+	"file"		"particles/impact_fx.pcf"	
+	
+	"file"		"particles/fire_02.pcf"
+	
 }
