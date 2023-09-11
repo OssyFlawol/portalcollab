@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	// Original shader: AddTexture
+	"$basetexture" "effects/blockfield"
+	"$additive" 1
+	"$vertexcolor" 1
+	"Proxies"
+	{
+			"TextureScroll"
+			{
+					"texturescrollvar" "$baseTextureTransform"
+					"texturescrollrate" 5.0
+					"texturescrollangle" 270
+			}
+	}
+}
