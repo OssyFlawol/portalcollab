@@ -1,16 +1,24 @@
 // New PortalCollab functions
 // ============================ //
-// 		Player Functions		//
+//       Player Functions       //
 // ============================ //
-// Portal Player specific functions:
 //
 // void SuppressCrosshair( bool ) // Hides/Unhides the player's crosshair.
-// void Portalgun_SetCanFirePortal1( bool ) // Sets if the player's portalgun can fire the primary portal.
-// void Portalgun_SetCanFirePortal2( bool ) // Sets if the player's portalgun can fire the secondary portal.
-// void Portalgun_SetLinkageGroupID( int ) 	// Sets the player's portalgun's Linkage ID.
 // void EquipSuit() // Equips the player with the HEV Suit.
 // void RemoveSuit() // Removes the player's HEV Suit.
 // entity GetPortalgun() // Gets the player's portalgun, will return null if there is none.
+//
+// ============================ //
+//     Portalgun Functions      //
+// ============================ //
+//
+// void SetCanFirePortal1( bool ) // Sets if the portalgun can fire the primary portal.
+// void SetCanFirePortal2( bool ) // Sets if the portalgun can fire the secondary portal.
+// void SetLinkageGroupID( int )  // Sets the portalgun's Linkage ID.
+// bool CanFirePortal1() // Returns true if the portalgun can fire portal 1.
+// bool CanFirePortal2() // Returns true if the portalgun can fire portal 2.
+// entity GetPortal1() // Gets a primary portal that is the same linkage id as the portalgun.
+// entity GetPortal2() // Gets a secondary portal that is the same linkage id as the portalgun.
 //
 // ============================ //
 // 		Global Functions		//
