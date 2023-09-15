@@ -36,7 +36,12 @@ function SetPortalgunFire1( value )
 	if( player == null )
 		return;
 	
-	player.Portalgun_SetCanFirePortal1( value );
+	local portalgun = player.GetPortalgun()
+	
+	if( portalgun == null )
+		return;
+	
+	portalgun.SetCanFirePortal1( value );
 }
 
 function SetPortalgunFire2( value )
@@ -46,7 +51,12 @@ function SetPortalgunFire2( value )
 	if( player == null )
 		return;
 	
-	player.Portalgun_SetCanFirePortal2( value );	
+	local portalgun = player.GetPortalgun()
+	
+	if( portalgun == null )
+		return;
+	
+	portalgun.SetCanFirePortal2( value );	
 }
 
 function SuppressCrosshair( value )
@@ -66,7 +76,12 @@ function SetLinkageGroupID( value )
 	if( player == null )
 		return;
 	
-	player.Portalgun_SetLinkageGroupID( value );	
+	local portalgun = player.GetPortalgun()
+	
+	if( portalgun == null )
+		return;
+	
+	portalgun.SetLinkageGroupID( value );	
 }
 
 function SomePortalgunFunction()
@@ -86,10 +101,17 @@ function SomePortalgunFunction()
 	portalgun.SetRenderColorG( 0 );
 	portalgun.SetRenderColorB( 0 );
 	
+	local portal2 = portalgun.GetPortal2();
+	
+	if ( portal2 != null )
+	{
+		portal2.Destroy();
+	}
+	
 }
 
-SuppressCrosshair( false );
-SetPortalgunFire1( true );
+SuppressCrosshair( true );
+SetPortalgunFire1( false );
 SetPortalgunFire2( true );
-SetLinkageGroupID( 3 );
+SetLinkageGroupID( 0 );
 SomePortalgunFunction();
