@@ -21,7 +21,16 @@
 // entity GetPortal2() // Gets a secondary portal that is the same linkage id as the portalgun.
 //
 // ============================ //
-// 		Global Functions		//
+//       Portal Functions       //
+// ============================ //
+//
+// void SetPortalPlacedFunction( string ) // When a portal is placed, the function you enter will be called. (Sets the ScriptPortalPlacedFunction keyvalue to the value you enter)
+// entity GetLinkedPortal() // Returns this portal's linked portal.
+// bool IsActive() // Returns true if this portal is active.
+// bool IsActivedAndLinked() // Returns true if this portal is active and has a linked portal.
+//
+// ============================ //
+//       Global Functions       //
 // ============================ //
 // These functions don't require a local variable:
 //
@@ -105,12 +114,21 @@ function SomePortalgunFunction()
 	
 	if ( portal2 != null )
 	{
-		portal2.Destroy();
-	}
-	
+		//portal2.Destroy();
+		
+		portal2.SetPortalPlacedFunction("PortalPlaced");		
+	}	
 }
 
-SuppressCrosshair( true );
+// Toggle crosshair each time an orange portal is placed.
+
+local shouldsupress = true;
+function PortalPlaced()
+{
+	SuppressCrosshair( shouldsupress );
+	shouldsupress = !shouldsupress;
+}
+
 SetPortalgunFire1( false );
 SetPortalgunFire2( true );
 SetLinkageGroupID( 0 );
