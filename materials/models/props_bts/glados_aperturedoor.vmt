@@ -1,0 +1,14 @@
+"sdk_vertexlitgeneric"
+{
+	"$baseTexture" "models\props_bts/Glados_Aperturedoor"
+	"envmap" "env_cubemap"
+	"$surfaceprop"	"metal"
+	//"$bumpmap"	"models/props_bts/Glados_Aperturedoor_normal"
+        "$selfillum" 1
+	//phong properties
+	//"$phong"	"1"
+	//"$phongboost"	"1"
+	//"$phongexponenttexture"	"models/props_bts/Glados_Aperturedoor_exponent"
+	//"$phongfresnelranges"	"[1 1.5 2]"
+
+}

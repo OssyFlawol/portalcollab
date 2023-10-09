@@ -1,0 +1,12 @@
+"sdk_vertexlitgeneric"
+{
+	"$baseTexture" "models\props_bts/glados_generator_sheet_04"
+	"envmap" "env_cubemap"
+        //"$selfillum" 1
+
+
+
+
+
+
+}

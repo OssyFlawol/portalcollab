@@ -1,4 +1,4 @@
-"VertexlitGeneric"
+"sdk_vertexlitgeneric"
 {
 	"$basetexture" "models/player/quinton_facemap"
 	"$surfaceprop" "Flesh"

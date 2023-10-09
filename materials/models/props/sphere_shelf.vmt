@@ -1,0 +1,5 @@
+"sdk_vertexlitgeneric"
+{
+	"$baseTexture" "models\props/sphere_shelf"
+	"$surfaceprop" "Metal_Box"
+}

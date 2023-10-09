@@ -1,0 +1,7 @@
+"sdk_lightmappedgeneric"
+{
+	"$basetexture" "overlays/garagegroundmarking01f"
+	"$translucent" 1
+	"$decal" 1
+
+}

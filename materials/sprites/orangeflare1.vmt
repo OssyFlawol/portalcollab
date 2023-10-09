@@ -1,0 +1,7 @@
+"sdk_Unlitgeneric"
+{
+	"$basetexture" "sprites/orangeflare1"
+	"$additive" 1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+}

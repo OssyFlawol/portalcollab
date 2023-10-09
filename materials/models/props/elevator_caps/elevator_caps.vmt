@@ -1,0 +1,12 @@
+"sdk_vertexlitgeneric"
+{
+	"$basetexture"	"models/props/elevator_caps/elevator_caps"
+	"$surfaceprop"	"metal"
+	//"$envmap"	"env_cubemap"
+	//"$envmapmask"	"models/props/elevatorshaft_wall/elevatorshaft_wall_env"
+	"$basemapalphaphongmask" "1"
+	"$phong" 1
+	"$phongboost"	"4"
+	"$phongexponenttexture"	"models/props/elevator_caps/elevator_caps_exp"
+	"$phongfresnelranges"	"[5 1.5 2]"
+}

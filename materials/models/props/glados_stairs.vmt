@@ -1,0 +1,17 @@
+"sdk_vertexlitgeneric"
+{
+	"$baseTexture" "models\props/Glados_stairs"
+	"envmap" "env_cubemap"
+		"%noportal" 1
+        //"$selfillum" 1
+	"$surfaceprop"	"metal"
+	"$bumpmap"	"models/props/glados_stairs_normal"
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponenttexture"	"models/props/glados_stairs_exponent"
+	"$phongfresnelranges"	"[1 1.5 1]"
+
+
+}
+

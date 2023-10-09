@@ -1,0 +1,22 @@
+"sdk_vertexlitgeneric"
+{
+	"$baseTexture" "models\props_bts/clear_tubes_broken_glass"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.20 .30 .35]"
+	"$additive" "1"
+	"$translucent" 1
+	"$nocull" "1"
+
+	//"$bumpmap" "models\props_bts/clear_tubes_glass_normal"
+	//"$phong" "1"
+	//"$phongexponenttexture" "models\props_bts/clear_tubes_glass_exponent"
+	//"$phongboost" "20"	
+	//"$lightwarptexture" "models\props_bts/clear_tubes_glass_lightwarp"
+	//"$phongfresnelranges"	"[1 2 5]"
+
+
+//  	"$normalmapalphaenvmapmask" 1
+	"$alphaenvmapmask" 1
+
+}

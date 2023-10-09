@@ -1,0 +1,9 @@
+"sdk_Unlitgeneric"
+{
+	// Original shader: AddTexture
+	"$basetexture" "effects/cleanser_edge"
+	"$additive" 1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"ignoreZ" 1
+}

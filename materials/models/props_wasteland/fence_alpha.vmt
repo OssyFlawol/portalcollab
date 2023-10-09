@@ -1,0 +1,11 @@
+"sdk_vertexlitgeneric"
+{
+	"$AlphaTest" "1"
+	"$AlphaTestReference" "0.3"
+	"$AllowAlphaToCoverage" "1"
+
+	"$basetexture" "Models/props_wasteland/fence_alpha"
+	"%compilepassbullets" 1
+	"$surfaceprop" "chainlink"
+	"$nodecal" 1
+}

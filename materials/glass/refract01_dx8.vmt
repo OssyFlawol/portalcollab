@@ -1,0 +1,13 @@
+"sdk_lightmappedgeneric"
+{
+	"$basetexture" "Glass/refract01_dx8"
+	"$surfaceprop" "glass"
+	"%keywords" "portal"
+
+	//"$envmap" "env_cubemap"
+	//"$envmaptint" "[.02 .00 .00]"
+
+	//"$additive" "1"
+	"$translucent" 1
+	"$nocull" "1"
+}

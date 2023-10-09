@@ -1,0 +1,5 @@
+"sdk_vertexlitgeneric"
+{
+	"$basetexture"	"models/props/lab_shelf_small/lab_shelf_small"
+	"$surfaceprop"	"metal"
+}

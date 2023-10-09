@@ -1,0 +1,9 @@
+"sdk_vertexlitgeneric"
+{
+	// Original shader: BaseTexture
+	"$basetexture" "models/props_c17/door01a_skin6"
+	"$surfaceprop" "metal"
+	"$envmap"  "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$envmaptint" "[ .04 .04 .04 ]"
+}

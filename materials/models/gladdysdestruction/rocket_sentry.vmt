@@ -1,0 +1,10 @@
+"sdk_vertexlitgeneric"
+{
+	"$baseTexture" "models\props_bts/Rocket_Sentry"
+	"envmap" "env_cubemap"
+        "$selfillum" 1
+
+
+
+
+}

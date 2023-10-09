@@ -1,0 +1,23 @@
+"sdk_vertexlitgeneric"
+{
+	"$baseTexture" "models\props/Bed01_glass"
+
+	"$envmap" "env_cubemap"
+  	"$alphaenvmapmask" "1"
+	"$envmaptint" "[.20 .30 .35]"
+
+	"$additive" 1
+	"$surfaceprop" "glass"
+	"$translucent" 1
+	"$nocull" "1"
+
+//	"$bumpmap" "models\props\Bed01_glass_normal"
+//	"$phong" "1"
+//	"$phongexponenttexture" "models\props\Bed01_glass_exponent"
+//	"$phongexponent" "25"
+	
+//	"$phongboost" "10"	
+//	"$lightwarptexture" "models\props\Bed01_glass_lightwarp"
+//	"$phongfresnelranges"	"[5 1 2]"
+
+}

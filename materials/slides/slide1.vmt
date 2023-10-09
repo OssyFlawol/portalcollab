@@ -1,0 +1,19 @@
+"sdk_lightmappedgeneric"
+{
+	"$basetexture"	"slides/slide1"
+	"$surfaceprop"	"default"
+	"$selfillum"	1
+	"%keywords" "portal"
+
+	"Proxies"
+	{
+
+		"MaterialModifyAnimated"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" .07
+		}
+	}
+	
+}

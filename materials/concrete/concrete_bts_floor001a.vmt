@@ -1,0 +1,7 @@
+"sdk_lightmappedgeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "concrete\concrete_bts_floor001a"
+	"$surfaceprop" "concrete"
+	"%keywords" "portal"
+}

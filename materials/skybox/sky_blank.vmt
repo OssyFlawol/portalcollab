@@ -1,0 +1,7 @@
+"sdk_lightmappedgeneric"
+{
+	"$basetexture" "skybox/sky_blank"
+	"$selfillum" 1
+	"$surfaceprop" "glass" 
+	"%keywords" "portal"
+}

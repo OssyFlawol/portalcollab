@@ -1,0 +1,9 @@
+// envmaptint_fix
+"sdk_lightmappedgeneric"
+{
+	// same as o48b, with no bump or spec
+	"$basetexture" "Metal/metalwall048b"
+	"$surfaceprop" "metal"
+	"%keywords" "combine, portal"
+	"%noportal" 1
+}

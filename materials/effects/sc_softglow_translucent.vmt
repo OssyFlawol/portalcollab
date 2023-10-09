@@ -1,0 +1,10 @@
+"Spritecard"
+{
+	"$basetexture" "effects/softglow_translucent"
+
+	// Some settings to reduce fillrate for low end GPUs (added for Mac release)
+	"lowfill?$minfadesize" ".2"
+	"lowfill?$maxfadesize" ".4"
+	"lowfill?$blendframes" "0"
+	"lowfill?$depthblend"  "0"
+}

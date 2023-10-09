@@ -1,0 +1,6 @@
+"sdk_Unlitgeneric"
+{
+	"$basetexture" "vgui/slideshow/glados/glados_screens_cake5"
+	//"$selfillum" 1
+	"%keywords" "test1, test2, cake"
+}

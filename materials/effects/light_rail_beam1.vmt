@@ -1,0 +1,26 @@
+"sdk_UnlitTwoTexture"
+{
+	"$basetexture" "Effects/light_rail_beam1"
+	"$texture2" "Effects/light_rail_beam2"
+	"$translucent" "1"
+	"$additive" 1
+	"$nodecal" 1
+
+	"Proxies"
+	{
+
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" .02
+			"texturescrollangle" 90
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" .04
+			"texturescrollangle" 20
+		}
+	}
+}

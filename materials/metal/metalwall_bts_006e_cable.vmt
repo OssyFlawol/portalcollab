@@ -1,0 +1,8 @@
+"sdk_lightmappedgeneric"
+{
+	"$basetexture"	"metal/metalwall_bts_006e_cable"
+        "$surfaceprop" "metal"
+        "%keywords" "portal"
+        "%noportal" 1
+
+}

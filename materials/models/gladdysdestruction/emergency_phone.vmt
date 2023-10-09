@@ -1,0 +1,12 @@
+"sdk_vertexlitgeneric"
+{
+	"$baseTexture" "models\props_bts/emergency_phone"
+	"envmap" "env_cubemap"
+  	"$model"	1
+
+
+
+
+
+
+}

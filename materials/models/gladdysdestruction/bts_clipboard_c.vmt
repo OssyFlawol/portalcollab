@@ -1,0 +1,6 @@
+"sdk_vertexlitgeneric"
+{
+	"$basetexture"	"models/props_bts/bts_clipboard_c"
+	"$surfaceprop"	"default"
+	"$model"	1
+}

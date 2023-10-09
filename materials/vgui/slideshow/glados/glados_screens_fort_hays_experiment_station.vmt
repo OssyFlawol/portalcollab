@@ -1,0 +1,6 @@
+"sdk_Unlitgeneric"
+{
+	"$basetexture" "vgui/slideshow/glados/glados_screens_fort_hays_experiment_station"
+	//"$selfillum" 1
+	"%keywords" "test1, test2, science"
+}

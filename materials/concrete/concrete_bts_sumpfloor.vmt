@@ -1,0 +1,7 @@
+"sdk_lightmappedgeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Concrete/concretefloor014a"
+	"$surfaceprop" "mud"
+	
+}

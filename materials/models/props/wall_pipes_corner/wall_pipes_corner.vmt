@@ -1,0 +1,7 @@
+"sdk_vertexlitgeneric"
+{
+	"$basetexture"	"models/props/wall_pipes_corner/wall_pipes_corner"
+	"$surfaceprop"	"metal"
+	"$envmap"	"env_cubemap"
+	"$basealphaenvmapmask" 1
+}

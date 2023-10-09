@@ -1,0 +1,7 @@
+"sdk_lightmappedgeneric"
+{
+	"$basetexture" "signage/signage_arrow"
+	"$surfaceprop" "glass"
+	"$selfillum" 1
+	"%keywords" "portal"
+}

@@ -1,4 +1,4 @@
-"VertexLitGeneric"
+"sdk_vertexlitgeneric"
 {
 	"$basetexture" "models/humans/male/trav_facemap"
 	$surfaceprop Flesh

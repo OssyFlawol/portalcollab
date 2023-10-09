@@ -1,0 +1,9 @@
+"sdk_vertexlitgeneric"
+{
+	"$basetexture"	"Models/props_animsigns/awe_total"
+	"$surfaceprop" "metal"
+
+	"$translucent" "1"
+	"$alpha" "1"
+
+}

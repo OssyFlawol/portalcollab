@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props_bts\exit_ceiling"
+	"$selfillum" "1"
+
+}

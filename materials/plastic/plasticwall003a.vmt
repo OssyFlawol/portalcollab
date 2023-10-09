@@ -1,0 +1,16 @@
+"sdk_lightmappedgeneric"
+{
+	"$basetexture"	"plastic/plasticwall003a"
+	//"$basetexture"	"plastic/plasticwall003a_test"
+	//"$bumpmap"	"plastic/plasticwall003a_normal"
+	"$bumpmap" "plastic/plasticwall003a_height-ssbump"
+	"$ssbump" "1"
+	"%keywords" "portal"
+
+	// NOTE: Even though env_cubemap is here, it will turned off for DX6
+	// because $multipass 1 isn't defined
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .03 .03 .03 ]"
+	"$envmapcontrast" 0.5
+	"$envmapsaturation" 1
+}

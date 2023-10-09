@@ -1,0 +1,41 @@
+"sdk_lightmappedgeneric"
+{
+	"$baseTexture" "Tile/observation_tilefloor004a"	
+	"$surfaceprop" "tile"
+	"%keywords" "portal"
+
+	"$envmap"  "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$envmaptint" "[ .05 .05 .05 ]"
+
+//	"$bumpmap" "tile/observation_tilefloor001a_normal"
+//	"$bumpmap" "tile/observation_tilefloor001a_height-ssbump"
+//	"$ssbump" "1"
+
+
+
+//	"LightmappedGeneric_HDR_DX9"
+//	{
+//		"$bumpmap" "tile/observation_tilefloor001a_height-ssbump"
+//		"$ssbump" "1"
+//	}
+//
+//	"LightmappedGeneric_DX9"
+//	{
+//		"$bumpmap" "tile/observation_tilefloor001a_height-ssbump"
+//		"$ssbump" "1"
+//	}
+//
+//	"LightmappedGeneric_DX8"
+//	{
+//		"$bumpmap" "tile/observation_tilefloor001a_normal"
+//		"$nodiffusebumplighting" 1
+//	}
+//
+//	"LightmappedGeneric_NoBump_DX8"
+//	{
+//		"$basetexture" "tile/observation_tilefloor001a"
+//		"$basealphaenvmapmask" 1
+//	}
+
+}

@@ -1,0 +1,36 @@
+"sdk_UnlitTwoTexture"
+{
+	"$basetexture"  "effects/Cleanser_Field/cleanser_field_edge"
+	"$texture2"  "effects/Cleanser_Field/cleanser_noise"
+	"$additive" "1"
+	"$tranlucent" "1"
+
+	"Proxies"
+	{
+
+//		"TextureScroll"
+//		{
+//			"texturescrollvar" "$basetexturetransform"
+//			"texturescrollrate" .13
+//			"texturescrollangle" 90
+//		}
+		
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 12 
+		}
+
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" .13
+			"texturescrollangle" 0
+		}
+
+
+}
+
+}

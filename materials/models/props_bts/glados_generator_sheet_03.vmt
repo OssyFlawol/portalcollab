@@ -1,0 +1,14 @@
+"sdk_vertexlitgeneric"
+{
+	"$baseTexture" "models\props_bts/glados_generator_sheet_03"
+	"envmap" "env_cubemap"
+	"$surfaceprop"	"metal"
+	"$bumpmap"	"models/props_bts/glados_generator_sheet_03_normal"
+        "$selfillum" 1
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponenttexture"	"models/props_bts/glados_generator_sheet_03_exponent"
+	"$phongfresnelranges"	"[1 1.5 2]"
+
+}

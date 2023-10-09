@@ -1,0 +1,6 @@
+"sdk_vertexlitgeneric"
+{
+	"$basetexture"	"models/props/bts_bed/bts_bed"
+	"$surfaceprop"	"cardboard"
+	"$bumpmap"	"models/props/bts_bed/bts_bed_n"
+}

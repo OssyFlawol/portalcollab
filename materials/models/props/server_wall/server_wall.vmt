@@ -1,0 +1,11 @@
+"sdk_vertexlitgeneric"
+{
+	"$basetexture"	"models/props/server_wall/server_wall"
+	"$surfaceprop"	"metal"
+	"$bumpmap"	"models/props/server_wall/server_wall_n"
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponenttexture"	"models/props/server_wall/server_wall_exp"
+	"$phongfresnelranges"	"[1 .8 .5]"
+}

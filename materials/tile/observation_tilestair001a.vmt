@@ -1,0 +1,16 @@
+"sdk_lightmappedgeneric"
+{
+	"$baseTexture" "Tile/observation_tilestair001a"
+	"$surfaceprop" "tile"
+	"%keywords" "portal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[ .25 .25 .25 ]"
+
+		"$bumpmap" "tile/observation_tilestair001a_height-ssbump"
+		"$ssbump" "1"
+
+}

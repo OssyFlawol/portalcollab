@@ -1,0 +1,5 @@
+"sdk_vertexlitgeneric"
+{
+	"$basetexture"	"models/props/claw/claw"
+	"$surfaceprop"	"metal"
+}

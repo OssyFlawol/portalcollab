@@ -1,0 +1,6 @@
+"sdk_lightmappedgeneric"
+{
+	"$basetexture" "signage/signage_border"
+	"$surfaceprop" "Plastic_Box"
+	"%keywords" "portal"
+}

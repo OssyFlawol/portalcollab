@@ -1,0 +1,7 @@
+"sdk_Unlitgeneric"
+{
+
+ 	"$basetexture" "skybox/bts_custom_cubemapdn.vtf"
+	"$hdrbasetexture" "skybox/bts_custom_cubemapdn.vtf"
+ 	$ignorez 1
+}

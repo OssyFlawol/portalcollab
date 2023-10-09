@@ -1,0 +1,8 @@
+"sdk_lightmappedgeneric"
+{
+	"$basetexture"	"overlays/stain_concrete009"
+	"$surfaceprop"	"default"
+	"$translucent"	1
+	"$decal"	1
+	"%keywords" "portal"
+}

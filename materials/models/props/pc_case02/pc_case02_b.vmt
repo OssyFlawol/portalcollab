@@ -1,0 +1,14 @@
+"sdk_vertexlitgeneric"
+{
+	"$basetexture"	"models/props/pc_case02/pc_case02_b"
+	"$surfaceprop"	"metal"
+	"$bumpmap"	"models/props/pc_case02/pc_case02_n"
+	
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"6"
+	"$phongexponenttexture"	"models/props/pc_case02/pc_case02_exp"
+	"$phongfresnelranges"	"[1 1.5 2]"
+
+
+}

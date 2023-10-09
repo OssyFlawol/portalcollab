@@ -1,0 +1,8 @@
+"sdk_lightmappedgeneric"
+{
+	"$basetexture" "signage/signage_overlay_catcher"
+	"$decal" 1
+	"$surfaceprop" "glass"
+	"$selfillum" 1
+	"%keywords" "portal"
+}

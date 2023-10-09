@@ -1,0 +1,7 @@
+"sdk_lightmappedgeneric"
+{
+	"$translucent" 1
+	"$basetexture" "overlays/cake_picture"
+	"$decal" 1
+	"%keywords" "portal"
+}

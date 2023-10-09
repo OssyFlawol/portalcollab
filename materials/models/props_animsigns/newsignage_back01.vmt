@@ -1,0 +1,8 @@
+"sdk_vertexlitgeneric"
+{
+	"$basetexture"	"Models/props_animsigns/newsignage_back01"
+
+
+	"$surfaceprop" "metal"
+	"$selfillum" "1"
+}

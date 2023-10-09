@@ -1,0 +1,10 @@
+// envmaptint_fix
+"sdk_lightmappedgeneric"
+{
+	"$basetexture" "Metal/metalwall_bts_004a"
+	"%keywords" "portal"
+	"$surfaceprop" "metal"
+	"$envmaptint" "[ .25 .25 .25 ]"
+	"$envmap" "env_cubemap"
+	"%noportal" 1
+}

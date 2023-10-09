@@ -1,0 +1,8 @@
+"sdk_Unlitgeneric"
+{
+
+ 	"$basetexture" "skybox/sky_escape_01_bk.vtf"
+	"$hdrbasetexture" "skybox/sky_escape_01_bk.vtf"
+ 	"$nofog" 1
+ 	$ignorez 1
+}

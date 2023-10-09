@@ -1,4 +1,4 @@
-"VertexLitGeneric"
+"sdk_vertexlitgeneric"
 {
 	"$basetexture" "models/player/subject/subject_female_black"
 	"$surfaceprop" "Flesh"

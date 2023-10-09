@@ -1,0 +1,8 @@
+"sdk_vertexlitgeneric"
+{
+	"$basetexture" "models/gladdysDestruction/machineCmap"
+	"envmap" "env_cubemap"
+	"$envmaptint" "[.35 .35 .35]"
+//        "$selfillum" 1
+
+}

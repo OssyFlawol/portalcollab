@@ -1,4 +1,4 @@
-"VertexlitGeneric"
+"sdk_vertexlitgeneric"
 {
 	"$basetexture" "models/player/portal_player_sheet"
 }

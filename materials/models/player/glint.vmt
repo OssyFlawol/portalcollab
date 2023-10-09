@@ -1,4 +1,4 @@
-"UnlitGeneric"
+"sdk_unlitgeneric"
 {
 	// Original shader: AddTexture
 	"$basetexture" "models/player/glint"
