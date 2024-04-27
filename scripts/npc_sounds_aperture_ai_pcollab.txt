@@ -1,0 +1,95 @@
+"pcollab.intro-1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/pcollab_intro-1.wav"
+}
+
+"pcollab.intro-2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/pcollab_intro-2.wav"
+}
+
+"pcollab.intro-3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/pcollab_intro-3.wav"
+}
+
+"pcollab.intro-4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/pcollab_intro-4.wav"
+}
+
+"pcollab.intro-5"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/pcollab_intro-5.wav"
+}
+
+"pcollab.intro-6"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/pcollab_intro-6.wav"
+}
+
+"pcollab.retrieval-1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/pcollab_retrieval-1.wav"
+}
+
+"pcollab.retrieval-2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/pcollab_retrieval-2.wav"
+}
+
+"pcollab.ending-1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/pcollab_ending-1.wav"
+}
+
+"pcollab.ending-2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/pcollab_ending-2.wav"
+}
+
+"pcollab.ending-3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/pcollab_ending-3.wav"
+}
+
+"pcollab.ending-4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/aperture_ai/pcollab_ending-4.wav"
+}

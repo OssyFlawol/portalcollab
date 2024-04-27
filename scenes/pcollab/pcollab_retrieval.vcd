@@ -1,0 +1,51 @@
+// Choreo version 1
+actor "aperture_ai"
+{
+  channel "wav"
+  {
+    event speak "Portal.ding_on"
+    {
+      time 0.040000 0.230000
+      param "Portal.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pcollab.retrieval-1"
+    {
+      time 0.506667 11.040545
+      param "pcollab.retrieval-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pcollab.retrieval-2"
+    {
+      time 11.506667 12.786736
+      param "pcollab.retrieval-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Portal.ding_off"
+    {
+      time 12.999998 13.189998
+      param "Portal.ding_off"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

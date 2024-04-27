@@ -1,0 +1,83 @@
+// Choreo version 1
+actor "aperture_ai"
+{
+  channel "wav"
+  {
+    event speak "Portal.ding_on"
+    {
+      time 0.060000 0.250000
+      param "Portal.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pcollab.intro-1"
+    {
+      time 0.513333 6.115352
+      param "pcollab.intro-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pcollab.intro-2"
+    {
+      time 6.393333 12.074354
+      param "pcollab.intro-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pcollab.intro-3"
+    {
+      time 12.340002 18.272383
+      param "pcollab.intro-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pcollab.intro-4"
+    {
+      time 18.586668 26.311499
+      param "pcollab.intro-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pcollab.intro-5"
+    {
+      time 26.566668 33.139229
+      param "pcollab.intro-5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pcollab.intro-6"
+    {
+      time 33.546665 40.340496
+      param "pcollab.intro-6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Portal.ding_off"
+    {
+      time 40.520000 40.709999
+      param "Portal.ding_off"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
