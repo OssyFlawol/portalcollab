@@ -41,5 +41,7 @@ globalactors
 	
 	"chell"					"female"
 	"mel"					"female"
+	
+	"male_citizen"			"male"
 
 }

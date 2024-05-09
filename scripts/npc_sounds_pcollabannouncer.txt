@@ -1,0 +1,31 @@
+"maintenance_announcer.subject_authorization"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/maintenance_announcer_authorization.wav"
+}
+
+"maintenance_announcer.annex_entrance"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/maintenance_announcer_cable.wav"
+}
+
+"maintenance_announcer.power_restored"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/maintenance_announcer_restored.wav"
+}
+
+"maintenance_announcer.exit_reached"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"		"vo/maintenance_announcer_exit.wav"
+}

@@ -28,6 +28,7 @@ game_sounds_manifest
 	"precache_file"		"scripts/npc_sounds_turret_portal.txt"
 	"precache_file"		"scripts/npc_sounds_rocket_turret.txt"
 	"precache_file"		"scripts/npc_sounds_glados_cores.txt"
+	"precache_file"		"scripts/npc_sounds_pcollabannouncer.txt"
 	
 
 	// NPC Sounds
@@ -35,4 +36,9 @@ game_sounds_manifest
 	"precache_file"		"scripts/npc_sounds_turret.txt"
 	"precache_file"		"scripts/npc_sounds_combine_ball.txt"
 	"precache_file"		"scripts/npc_sounds_combine_ball_episodic.txt"
+	
+	// Misc
+	"precache_file"		"scripts/level_sounds_trainyard.txt"
+	"precache_file"		"scripts/level_sounds_canals.txt"
+	"precache_file"		"scripts/level_sounds_coast.txt"
 }
