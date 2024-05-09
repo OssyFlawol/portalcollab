@@ -41,4 +41,5 @@ game_sounds_manifest
 	"precache_file"		"scripts/level_sounds_trainyard.txt"
 	"precache_file"		"scripts/level_sounds_canals.txt"
 	"precache_file"		"scripts/level_sounds_coast.txt"
+	"precache_file"		"scripts/game_sounds_pcollab.txt"
 }

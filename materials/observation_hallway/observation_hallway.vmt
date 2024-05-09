@@ -1,0 +1,12 @@
+"SDK_LightmappedGeneric"
+{
+	"$basetexture" "tools/toolsblack"
+	"$envmap" "observation_hallway/observation_hallway"
+	"$nodecal" 1
+	
+	"$envMapParallax"		"1"
+	"$envMapParallaxOBB1"		"[0.000363 -0.000000 0.000000 -0.325581]"
+	"$envMapParallaxOBB2"		"[-0.000000 0.002604 -0.000000 1.833333]"
+	"$envMapParallaxOBB3"		"[0.000000 -0.000000 0.001563 -0.400000]"
+	"$envMapOrigin"		"[3040 -512 576]"
+}

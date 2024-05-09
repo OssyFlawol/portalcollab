@@ -1,0 +1,19 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"slides/quinton_slides"
+	"$surfaceprop"	"default"
+	"$selfillum"	1
+	"%keywords" "portal"
+
+	"Proxies"
+	{
+
+		"MaterialModifyAnimated"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" .07
+		}
+	}
+	
+}

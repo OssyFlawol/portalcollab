@@ -1,0 +1,21 @@
+"Refract"
+{
+ 	"$refractamount" "0.04"
+ 	"$bluramount" ".25"
+	$additive 1
+ 	"$normalmap" "shadertest/gooinglass_normal"
+ 	"$surfaceprop" "water"
+	"$refracttinttexture" "shadertest/gooinglass_seamless"
+	"$envmap" "shadertest/gooinglass_env"
+	"$envmaptint" "[ 1.00 1.00 1.00 ]"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" "0.20"
+			"texturescrollangle" "60"
+		}
+
+	}
+}

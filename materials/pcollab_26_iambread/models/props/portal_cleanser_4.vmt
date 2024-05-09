@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "pcollab_26_iambread\models\props/portal_cleanser_4"
+
+
+	"$bumpmap" "models\props\portal_cleanser_normal"
+	"$phong" "1"
+	"$phongexponenttexture" "models\props\portal_cleanser_exponent"
+//	"$phongexponent" "25"
+	
+	"$phongboost" "2"	
+	//"$lightwarptexture" "models\props\portal_cleanser_lightwarp"
+	"$phongfresnelranges"	"[1 1.5 1]"
+//	"$halflambert" "1"
+
+//	"$envmap" "env_cubemap"
+//  "$normalmapalphaenvmapmask" 1
+        "$selfillum" 1
+}

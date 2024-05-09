@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"effects/metalgrate018_shadow"
+	"$translucent"	"1"
+	"$decal"		"1"
+	"$decalscale"	"0.25"
+	"%keywords"		"portal,prelude"
+}

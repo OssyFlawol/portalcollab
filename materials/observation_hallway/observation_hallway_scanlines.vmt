@@ -1,0 +1,16 @@
+"unlitgeneric"
+{
+	"$basetexture" "observation_hallway/television_scanlines"
+	//"$texture2" "observation_hallway/scanline2"
+	$translucent 1
+	$additive 1
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" 0.1
+			"texturescrollangle" 90
+		}
+	}
+}

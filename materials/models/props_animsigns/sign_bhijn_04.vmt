@@ -1,0 +1,8 @@
+"SDK_VertexLitGeneric"
+{
+	"$basetexture"	"models/props_animsigns/sign_bhijn_04"
+
+
+	"$surfaceprop" "metal"
+	"$selfillum" "1"
+}

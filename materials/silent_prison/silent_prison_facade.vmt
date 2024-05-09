@@ -1,0 +1,14 @@
+"SDK_LightmappedGeneric"
+{
+	"$basetexture" "tools/toolsblack"
+	"%noportal" 1
+	"$envmap" "silent_prison/silent_prison_facade_envmap"
+	//$envmap env_cubemap
+	"$nodecal" 1
+	"$envMapParallax"		"1"
+		"$envMapParallaxOBB1"		"[0.000337 -0.000000 0.000000 2.323331]"
+		"$envMapParallaxOBB2"		"[-0.000000 0.000169 -0.000000 1.415374]"
+		"$envMapParallaxOBB3"		"[0.000000 -0.000000 0.000330 4.196370]"
+		"$envMapOrigin"		"[-5408 -2744 -11200]"
+		
+}

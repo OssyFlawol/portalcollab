@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/props/portal_cleanser_2"
+	"$bumpmap"				"models/props/portal_cleanser_normal"
+	"$phongexponenttexture"	"models/props/portal_cleanser_exponent"
+	
+	"$phong"				"1"
+	"$phongboost"			"2"	
+	"$phongfresnelranges"	"[1 1.5 1]"
+    "$selfillum"			"1"
+	
+	"%keywords"				"portal,prelude"
+}

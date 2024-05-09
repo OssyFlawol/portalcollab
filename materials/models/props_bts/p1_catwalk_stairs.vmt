@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_bts/p1_catwalk_stairs"
+	"%compilepassbullets" 1
+	"$translucent" 1
+}

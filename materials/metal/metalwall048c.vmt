@@ -12,9 +12,8 @@
 	"$envmapsaturation" 1
 	"$envmaptint" "[ 0.75 0.5 0.5 ]"
 
-		"$bumpmap" "metal/metalwall048b_height-ssbump"
-		"$ssbump" "1"
-		"$normalmapalphaenvmapmask" 1
-		"$envmaptint" "[ 0.75 0.5 0.5 ]"
+	"$bumpmap" "metal/metalwall048b_height-ssbump"
+	"$ssbump" "1"
+	"$normalmapalphaenvmapmask" 1
 	
 }

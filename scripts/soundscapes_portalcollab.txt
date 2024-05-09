@@ -1,0 +1,75 @@
+"pcollab_boxfigs.dark_space"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"wave"		"ambient/atmosphere/ambience_base.wav"
+		"pitch"		"95"
+		"attenuation"	"0"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.4,0.7"
+		"pitch"		"90,120"
+		"time"		"1.5,5.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_50dB"
+		"rndwave"
+		{
+			"wave"	"ambient/levels/canals/headcrab_canister_ambient1.wav"
+			"wave"	"ambient/levels/canals/headcrab_canister_ambient2.wav"
+			"wave"	"ambient/levels/canals/headcrab_canister_ambient3.wav"
+			"wave"	"ambient/levels/canals/headcrab_canister_ambient4.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"volume"	"0.3,0.5"
+		"pitch"		"90,120"
+		"time"		"7.5,12.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_60dB"
+		"rndwave"
+		{
+			"wave"	"ambient/levels/citadel/strange_talk1.wav"
+			"wave"	"ambient/levels/citadel/strange_talk6.wav"
+			"wave"	"ambient/levels/citadel/strange_talk7.wav"
+			"wave"	"ambient/levels/citadel/strange_talk8.wav"
+			"wave"	"ambient/levels/citadel/strange_talk9.wav"
+			"wave"	"ambient/levels/citadel/strange_talk10.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"volume"	"0.3,0.6"
+		"pitch"		"70,90"
+		"time"		"10.0,20.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_65dB"
+		"rndwave"
+		{
+			"wave"	"ambient/levels/labs/teleport_weird_voices1.wav"
+			"wave"	"ambient/levels/labs/teleport_weird_voices2.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"volume"	"0.6,0.7"
+		"pitch"		"80,90"
+		"time"		"8.0,15.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_65dB"
+		
+		"rndwave"
+		{
+			"wave"		"ambient/machines/thumper_hit.wav"
+			"wave"		"ambient/levels/labs/teleport_mechanism_windup1.wav"
+		}
+	}
+}

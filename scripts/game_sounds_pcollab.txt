@@ -1,0 +1,33 @@
+"pcollab_boxfigs.cleanser_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"1"
+	"pitch"			"100"
+	
+	"wave"			"ambient/levels/labs/electric_explosion5.wav"
+}
+
+"pcollab_boxfigs.cleanser_on"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"1"
+	"pitch"			"100"
+	
+	"wave"			"ambient/cleanser_on.wav"
+}
+
+"pcollab_boxfigs.door_pound"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"1"
+	"pitch"			"100"
+	
+	"rndwave"
+	{
+		"wave"		"ambient/door_pounding1.wav"
+		"wave"		"ambient/door_pounding2.wav"
+	}
+}

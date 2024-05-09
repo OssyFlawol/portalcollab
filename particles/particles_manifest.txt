@@ -44,4 +44,7 @@ particles_manifest
 	
 	"file"		"particles/fire_02.pcf"
 	
+	//mapbase
+	"file"		"particles/rain_fx.pcf"
+	
 }
