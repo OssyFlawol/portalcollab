@@ -339,6 +339,28 @@
 	input Disable(void) : "Make slideshow invisible."
 ]
 
+@PointClass base(Targetname, Angles, Parentname) studio("models/props/radio_reference.mdl") studioprop() = prop_radio : "Radio Prop"
+[
+	signalname(target_destination) : "Signal Entity Name" : : "The signal that this radio needs to receive."
+	
+	// outputs
+	output OnSignalReceived(void) : "Fired when the radio has received a signal."
+]
+
+@PointClass base(Targetname, Parentname) sphere(outerradius) sphere(innerradius) size(16 16 16) = info_radio_signal : 
+	"The signal the radio needs to find for it to activate"
+[
+	soundname(sound) : "Found Sound" : "UpdateItem.Dinosaur01" : "Sound played when the radio is found in its location."
+
+	signalid(integer) : "Radio ID" : 0 : "The ID this radio uses for scripts/radios.txt"
+	
+	innerradius(float) : "Inner Radius" : 64 : "If the radio is in this sphere, it will activate the radio."
+	outerradius(float) : "Outer Radius" : 200 : "If the radio is in this sphere, static noises begin playing and the closer the radio is, the louder its Found Sound is"
+	
+	// outputs
+	output OnRadioEntered(void) : "Fired when a radio has entered the outer radius."
+	output OnRadioFullyEntered(void) : "Fired when a radio has entered the inner radius"
+]
 
 ///=============================================================================
 //
