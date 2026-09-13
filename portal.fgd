@@ -421,3 +421,67 @@
 									" If empty, the info_lighting_relative's origin will" +
 									" be used."
 ]
+
+@PointClass base(prop_dynamic_base,EnableDisable) sphere(fademindist) sphere(fademaxdist) studioprop() = prop_testchamber_sign :
+	"A fully customizeable test chamber sign "
+[
+	model(studio) : "World model" : "models/props_animsigns/signage_blank.mdl" : "The blank signage canvas."
+	
+	chamber_number(integer) : "Chamber Number" : 0
+	total_chambers(integer) : "Total Chambers" : 19
+	
+	icon1active(choices) : "Icon 1 Active" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	icon2active(choices) : "Icon 2 Active" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	icon3active(choices) : "Icon 3 Active" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	icon4active(choices) : "Icon 4 Active" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	icon5active(choices) : "Icon 5 Active" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	icon6active(choices) : "Icon 6 Active" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	icon7active(choices) : "Icon 7 Active" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	icon8active(choices) : "Icon 8 Active" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	icon9active(choices) : "Icon 9 Active" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	LegacyTotalChambers(choices) : "Use legacy total chambers system" : 0 : "Makes the total chambers text, like'/19' use the textures"	=
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	awe_material(material) : "AWE Material" : "models/props_animsigns/awe_total"
+	awe_grey_material(material) : "AWE Grey Material" : "models/props_animsigns/awe_total_grey"
+]
