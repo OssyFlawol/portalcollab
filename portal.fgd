@@ -475,6 +475,11 @@
 		0 : "No"
 		1 : "Yes"
 	]
+	icon10active(choices) : "Icon 10 Active" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
 	
 	LegacyTotalChambers(choices) : "Use legacy total chambers system" : 0 : "Makes the total chambers text, like'/19' use the textures"	=
 	[
