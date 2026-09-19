@@ -489,4 +489,18 @@
 	
 	awe_material(material) : "AWE Material" : "models/props_animsigns/awe_total"
 	awe_grey_material(material) : "AWE Grey Material" : "models/props_animsigns/awe_total_grey"
+	
+	input SetChamberNumber(integer) : "Set what the chamber number is."
+	input SetTotalChambers(integer) : "Set how many chambers there are."
+	
+	input SetIcon1Active(integer) : "Set if the 1st icon is active."
+	input SetIcon2Active(integer) : "Set if the 2nd icon is active."
+	input SetIcon3Active(integer) : "Set if the 3rd icon is active."
+	input SetIcon4Active(integer) : "Set if the 4th icon is active."
+	input SetIcon5Active(integer) : "Set if the 5th icon is active."
+	input SetIcon6Active(integer) : "Set if the 6th icon is active."
+	input SetIcon7Active(integer) : "Set if the 7th icon is active."
+	input SetIcon8Active(integer) : "Set if the 8th icon is active."
+	input SetIcon9Active(integer) : "Set if the 9th icon is active."
+	input SetIcon10Active(integer) : "Set if the 10th icon is active."
 ]
